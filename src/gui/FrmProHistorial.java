@@ -114,27 +114,27 @@ public class FrmProHistorial extends JInternalFrame implements ActionListener {
 		getContentPane().add(lblEnfermedades);
 		
 		JCheckBox chckbxHipertension = new JCheckBox("Hipertension");
-		chckbxHipertension.setBounds(30, 404, 85, 23);
+		chckbxHipertension.setBounds(30, 404, 97, 23);
 		getContentPane().add(chckbxHipertension);
 		
 		JCheckBox chckbxAsma = new JCheckBox("Asma");
-		chckbxAsma.setBounds(119, 404, 58, 23);
+		chckbxAsma.setBounds(129, 404, 67, 23);
 		getContentPane().add(chckbxAsma);
 		
 		JCheckBox chckbxDiabetes = new JCheckBox("Diabetes");
-		chckbxDiabetes.setBounds(179, 404, 72, 23);
+		chckbxDiabetes.setBounds(195, 404, 89, 23);
 		getContentPane().add(chckbxDiabetes);
 		
 		JCheckBox chckbxAnemia = new JCheckBox("Anemia");
-		chckbxAnemia.setBounds(263, 404, 66, 23);
+		chckbxAnemia.setBounds(289, 404, 87, 23);
 		getContentPane().add(chckbxAnemia);
 		
 		JCheckBox chckbxColesterol = new JCheckBox("Colesterol Alto");
-		chckbxColesterol.setBounds(333, 404, 97, 23);
+		chckbxColesterol.setBounds(397, 404, 114, 23);
 		getContentPane().add(chckbxColesterol);
 		
 		JCheckBox chckbxIts = new JCheckBox("ITS/ETS/VPH");
-		chckbxIts.setBounds(333, 430, 87, 23);
+		chckbxIts.setBounds(289, 430, 110, 23);
 		getContentPane().add(chckbxIts);
 		
 		JLabel lblReaccinAlrgica = new JLabel("Reacción Alérgica");
@@ -143,19 +143,19 @@ public class FrmProHistorial extends JInternalFrame implements ActionListener {
 		getContentPane().add(lblReaccinAlrgica);
 		
 		JCheckBox chckbxAspirina = new JCheckBox("Aspirina");
-		chckbxAspirina.setBounds(30, 334, 66, 23);
+		chckbxAspirina.setBounds(30, 334, 72, 23);
 		getContentPane().add(chckbxAspirina);
 		
 		JCheckBox chckbxPenicilina = new JCheckBox("Penicilina");
-		chckbxPenicilina.setBounds(98, 334, 72, 23);
+		chckbxPenicilina.setBounds(119, 334, 89, 23);
 		getContentPane().add(chckbxPenicilina);
 		
 		JCheckBox chckbxEritromicina = new JCheckBox("Eritromicina");
-		chckbxEritromicina.setBounds(172, 334, 85, 23);
+		chckbxEritromicina.setBounds(206, 334, 100, 23);
 		getContentPane().add(chckbxEritromicina);
 		
 		JCheckBox chckbxSulfonamida = new JCheckBox("Sulfonamida");
-		chckbxSulfonamida.setBounds(253, 334, 91, 23);
+		chckbxSulfonamida.setBounds(308, 334, 126, 23);
 		getContentPane().add(chckbxSulfonamida);
 		
 		JLabel lblTipoSangre = new JLabel("Tipo de Sangre");
@@ -179,19 +179,19 @@ public class FrmProHistorial extends JInternalFrame implements ActionListener {
 		getContentPane().add(txtDNI);
 		
 		JCheckBox chckbxCorticoides = new JCheckBox("Corticoides");
-		chckbxCorticoides.setBounds(30, 430, 85, 23);
+		chckbxCorticoides.setBounds(30, 430, 97, 23);
 		getContentPane().add(chckbxCorticoides);
 		
 		JCheckBox chckbxCancer = new JCheckBox("Cancer");
-		chckbxCancer.setBounds(119, 430, 62, 23);
+		chckbxCancer.setBounds(129, 430, 67, 23);
 		getContentPane().add(chckbxCancer);
 		
 		JCheckBox chckbxTuberculosis = new JCheckBox("Tuberculosis");
-		chckbxTuberculosis.setBounds(179, 430, 86, 23);
+		chckbxTuberculosis.setBounds(396, 430, 176, 23);
 		getContentPane().add(chckbxTuberculosis);
 		
 		JCheckBox chckbxLeucemia = new JCheckBox("Leucemia");
-		chckbxLeucemia.setBounds(263, 430, 72, 23);
+		chckbxLeucemia.setBounds(195, 430, 82, 23);
 		getContentPane().add(chckbxLeucemia);
 		
 		btnGrabar = new JButton("Grabar");
