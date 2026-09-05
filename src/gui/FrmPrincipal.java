@@ -24,9 +24,10 @@ public class FrmPrincipal extends JFrame implements ActionListener {
 	private JPanel contentPane;
 	private JMenuItem mntmPaciente;
 	FrmManPaciente frmManPaciente = new FrmManPaciente();
-	
+	FrmProCita frmProCita = new FrmProCita();
 	FrmProHistorial frmProHistorial = new FrmProHistorial();
 	private JMenuItem mntmHistorial;
+	private JMenuItem mntmCita;
 	/**
 	 * Launch the application.
 	 */
@@ -78,7 +79,8 @@ public class FrmPrincipal extends JFrame implements ActionListener {
 		mntmHistorial.addActionListener(this);
 		mnProcesos.add(mntmHistorial);
 		
-		JMenuItem mntmCita = new JMenuItem("Cita");
+		mntmCita = new JMenuItem("Cita");
+		mntmCita.addActionListener(this);
 		mnProcesos.add(mntmCita);
 		
 		JMenuItem mntmReceta = new JMenuItem("Receta");
@@ -122,10 +124,13 @@ public class FrmPrincipal extends JFrame implements ActionListener {
 		
 		desktopPane.add(frmManPaciente);
 		desktopPane.add(frmProHistorial);
-		
+		desktopPane.add(frmProCita);
 		
 	}
 	public void actionPerformed(ActionEvent e) {
+		if (e.getSource() == mntmCita) {
+			actionPerformedMntmCitaJMenuItem(e);
+		}
 		if (e.getSource() == mntmHistorial) {
 			actionPerformedMntmHistorialJMenuItem(e);
 		}
@@ -148,6 +153,9 @@ public class FrmPrincipal extends JFrame implements ActionListener {
 	
 	
 	
+	protected void actionPerformedMntmCitaJMenuItem(ActionEvent e) {
+		frmProCita.setVisible(true);
+	}
 }
 
 
